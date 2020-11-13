@@ -3,10 +3,21 @@
 Basado en: 
 https://www.tutorialesprogramacionya.com/angularya/
 
+ng new angularyaproyecto002
 
+Modificar el app.modules.ts:
+import { FormsModule } from '@angular/forms';
+y añadirlo en el imports
+  imports: [
+    BrowserModule,
+    FormsModule
+
+Añadir el código a los archivos:
+app.component.ts y app.component.html
+
+ng serve -o // -o para abrir en el servidor por defecto
 
 ---
-
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
